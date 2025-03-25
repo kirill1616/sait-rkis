@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("https://s3-alpha-sig.figma.com/img/385e/3d43/bb5a62c4e380f2328c1defc1dbfb4eed?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=c75qGul6BPw8rAajlBWEA4ozAH4i5RiBnayvfofHn~LFt4BRjo-rLHkraGtEbsiiu4hY-0fdaZNH7fR3H38PvZPsiGMDRBBJiOoHg3Zfyex5-POfrb6YbXBEkG-KoqH~unmDDy-9rNPdJn6aHP9aZ7Xiu7GthuDnqMmYQTLXk7dWryH7IXPHkzbiGDt8KyxaVkEW1TKZRxz0vM7PPp7y-YZcfqWS-wYCHvf5gM3aCHBlpodgZmd0qOETrbSNEBbnCuzbQy5E79Q7P87IKx6q5d9nOx8GloLKvY6X-Gr-dJs2qiBH0yGfu1ibtOuGdZIzry9U9qXc6g1T-~0JFS3kkg__"); /* Путь к вашей фотографии */
+    background-size: cover; /* Растягивает изображение, чтобы покрыть всю область */
+    background-repeat: no-repeat; /* Запрещает повторение изображения */
+    background-attachment: fixed; /* Фиксирует изображение при прокрутке страницы */
+    /* Дополнительные стили для текста, чтобы он был виден на фоне */
+    color: rgb(255, 255, 255); /* Цвет текста */
+}
+
+#wrapper {
+    width: 60%; /* Ширина контейнера (можно настроить) */
+    margin: 20px auto; /* Центрирование контейнера */
+    border: 2px solid #333; /* Ширина, стиль и цвет рамки */
+    border-radius: 5px; /* Радиус скругления углов */
+    overflow: hidden; /* Обрезаем все, что выходит за рамки */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Добавляем тень для глубины */
+    background: linear-gradient(to bottom, #547853, #947360, #544364); 
+    color: white;
+  }
+  #wraper {
+    width: 90%; /* Ширина контейнера (можно настроить) */
+    margin: 20px auto; /* Центрирование контейнера */
+    border: 2px solid #333; /* Ширина, стиль и цвет рамки */
+    border-radius: 5px; /* Радиус скругления углов */
+    overflow: hidden; /* Обрезаем все, что выходит за рамки */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Добавляем тень для глубины */
+    background-color: #1B09244A; /* Задаём фон для контейнера, чтобы видеть рамку */
+  }
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav {
+    background-color: #547853;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color: #888;
+    border-top: 1px solid #555;
+}
+
+
+
+.home-hero h1 {
+    font-size: 3em;
+}
+
+/* Стили для страницы игры */
+.game-description {
+    line-height: 1.6;
+}
+
+/* Стили для страницы новостей */
+.news-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.news-date {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.play-button {
+    display: block; /* Делает кнопку блочным элементом для полной ширины */
+    margin: 20px auto; /* Центрирует кнопку по горизонтали и добавляет отступ сверху и снизу */
+    padding: 15px 30px; /* Увеличивает размер кнопки */
+    background-color: #e7e7e7; /* Зеленый цвет */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em; /* Увеличивает размер шрифта */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: row; /* Горизонтальное расположение элементов */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .control-block {
+    margin: 0 60px; /* Отступ между блоками управления */
+  }
+  
+  /* Заголовок блока управления */
+  .control-block h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  /* Контейнер слайдера */
+  .slider-container {
+    width: 800px;
+    height: 440px;
+    margin: 0 auto; /* Добавить это */
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white; /*Для визуализации*/
+    margin-top: 50px; /* Добавляем отступ сверху */
+  }
+  
+  /* Обёртка слайдов */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Плавная анимация */
+  }
+  
+  /* Отдельный слайд */
+  .slide {
+    min-width: 100%; /* Каждый слайд занимает всю ширину контейнера */
+    height: 100%; /* Каждый слайд занимает всю высоту контейнера */
+    object-fit: cover; /* Изображения масштабируются и обрезаются для заполнения */
+  }
+  
+  /* Кнопки навигации */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .nav-button.prev {
+    left: 10px;
+  }
+  
+  .nav-button.next {
+    right: 10px;
+  }
+  
+  /* Индикаторы (точки) */
+  .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
+
+  
+  
+  
+  
+ 
+  
+ 
